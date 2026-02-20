@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class BubbleSort {
     public static void main (String args[]) {
 		Scanner scan = new Scanner(System.in);
 		int size = scan.nextInt();
@@ -25,5 +25,7 @@ public class Main {
 
 		for (int i = 0; i < size; i++) 
 			System.out.print(arr[i] + " ");  
+
+		scan.close();
     }
 }  
